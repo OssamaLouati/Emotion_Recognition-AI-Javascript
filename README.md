@@ -1,4 +1,1 @@
-    This AI is built with Javascript in order to recognize faces expressions using the models developed 
-    <p>
-    <a href =""></a> 
-    </p>
+    This AI is built with Javascript in order to recognize faces expressions using the models <a href="https://github.com/WebDevSimplified/Face-Detection-JavaScript/tree/master/models">here</a>
