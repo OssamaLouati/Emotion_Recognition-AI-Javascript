@@ -16,6 +16,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            background-color: rgb(20, 14, 23);
         }
         canvas {
             position: absolute;
@@ -24,9 +25,16 @@
         style {
             box-shadow:5px 10px linear-gradient(to right, white, red);
         }   
+        h1{
+            position: absolute;
+            color: aliceblue;
+            top: 100px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
         </style>
 </head>
 <body>
+    <h1>Emotions recognition with Javascript</h1>
     <div class="style">
         <video id="video"  width="900" height="560" autoplay="true" muted></video>
     </div>
